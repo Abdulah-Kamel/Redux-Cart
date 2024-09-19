@@ -26,7 +26,7 @@ const Cart = () => {
         <Loading size={"large"} />
       ) : (
         <>
-          <Table striped bordered hover>
+          <Table striped bordered hover responsive>
             <thead>
               <tr>
                 <th>#</th>
